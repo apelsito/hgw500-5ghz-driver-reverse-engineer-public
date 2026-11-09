@@ -1,0 +1,73 @@
+{
+  "name": "topaz_tqe_xmit",
+  "procedure": {
+    "address": "0x1011c",
+    "name": "topaz_tqe_xmit",
+    "classification": {
+      "external": false,
+      "thunk": false,
+      "thunk_target": null,
+      "provenance": "ghidra-function-manager"
+    },
+    "body": {
+      "available": true,
+      "provenance": "ghidra-function-body-address-set",
+      "ranges": [
+        {
+          "start": "0x1011c",
+          "end": "0x101f9"
+        }
+      ],
+      "total_bytes": 222,
+      "span_bytes": 222,
+      "non_contiguous": false,
+      "contains_entry": true
+    },
+    "signature": "undefined topaz_tqe_xmit()",
+    "locals": []
+  },
+  "source_evidence": "evidence/rea-topaz-tqe-xmit-20261022/rea.json",
+  "subject": {
+    "name": "switch_tqe-ANALYSIS_ONLY-NOT_FIRMWARE.elf",
+    "digest": {
+      "sha256": "0aede6d339602939519570f1fc1a796d00af23b52ed334ccff0b16be7b757861"
+    },
+    "local_path": "/workspace/user-home/Desktop/MitraStar/outputs/rea/arc700-20261021-r2/tqe-linked/switch_tqe-ANALYSIS_ONLY-NOT_FIRMWARE.elf",
+    "format": "elf",
+    "architecture": "arc700"
+  },
+  "provider": {
+    "id": "ghidra",
+    "name": "Ghidra",
+    "version": "12.1.4"
+  },
+  "operation": "analyze_function",
+  "instruction_count": 62,
+  "limitations": [
+    "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+    "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+    "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+    "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+    "References cover the complete Ghidra function-body AddressSet and exact entry. Dossier incoming edges omit sources owned by that function; procedure_references also retains those internal edges.",
+    "The dossier combines Ghidra FunctionManager, Listing, ReferenceManager, BasicBlockModel, and decompiler observations; provider-specific pseudocode and assembly are not cross-provider text invariants.",
+    "Resolved reference metadata identifies computed, indirect, external, call, jump, and data edges; unresolved targetless flows remain unknown, and function classifications distinguish thunks and externals.",
+    "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+    "The Java bridge serializes one function request per Program and lets each decompilation run until it completes or the caller cancels.",
+    "Unresolved computed or indirect flows without target addresses are not represented as reference edges.",
+    "Thunk and external classifications are Ghidra FunctionManager observations; they do not resolve targetless calls.",
+    "Pseudocode and assembly are Ghidra-specific representations, not original source or Hopper-equivalent text.",
+    "Synthetic Ghidra entry-point references without actionable memory sources are omitted."
+  ],
+  "relationship_coverage": {
+    "status": "partial",
+    "limitations": [
+      "Ghidra's callee inventory omits targets of 2 call reference(s) or decoded call(s) without destinations."
+    ],
+    "limited_directions": [
+      "callees"
+    ],
+    "diagnostics": [
+      "Only resolved Ghidra call references are returned; unresolved computed or indirect calls remain unknown, while function classifications distinguish thunks and externals."
+    ]
+  }
+}

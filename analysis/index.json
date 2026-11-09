@@ -1,0 +1,50 @@
+[
+  {
+    "name": "om_oem_qdrv_getparam",
+    "path": "analysis/oem-qdrv-missingops-20261022T132700Z-getparam-r2/om_oem_qdrv_getparam",
+    "instructions": 932,
+    "evidence": "evidence/oem-qdrv-missingops-20261022T132700Z-getparam-r2/rea.json"
+  },
+  {
+    "name": "qdrv_wlan_init",
+    "path": "analysis/oem-qdrv-missingops-20261022T132800Z-init/qdrv_wlan_init",
+    "instructions": 2397,
+    "evidence": "evidence/oem-qdrv-missingops-20261022T132800Z-init/rea.json"
+  },
+  {
+    "name": "FUN_ram_00048224",
+    "path": "analysis/oem-qdrv-missingops-20261022T142000Z-setparam/FUN_ram_00048224",
+    "instructions": 1957,
+    "evidence": "evidence/oem-qdrv-missingops-20261022T142000Z-setparam/rea.json"
+  },
+  {
+    "name": "ieee80211_get_max_system_bw",
+    "path": "analysis/oem-wlan-maxbw-20261022T143000Z-r1/ieee80211_get_max_system_bw",
+    "instructions": 31,
+    "evidence": "evidence/oem-wlan-maxbw-20261022T143000Z-r1/rea.json"
+  },
+  {
+    "name": "FUN_ram_0003741c",
+    "path": "analysis/oem-wlan-missingops-20261022T131900Z-getparam-r2/FUN_ram_0003741c",
+    "instructions": 2195,
+    "evidence": "evidence/oem-wlan-missingops-20261022T131900Z-getparam-r2/rea.json"
+  },
+  {
+    "name": "FUN_ram_00041664",
+    "path": "analysis/oem-wlan-missingops-20261022T131900Z-setparam-r2/FUN_ram_00041664",
+    "instructions": 5457,
+    "evidence": "evidence/oem-wlan-missingops-20261022T131900Z-setparam-r2/rea.json"
+  },
+  {
+    "name": "qdrv_wlan_init",
+    "path": "analysis/rea-qdrv-wlan-init-20261022/qdrv_wlan_init",
+    "instructions": 1203,
+    "evidence": "evidence/rea-qdrv-wlan-init-20261022/rea.json"
+  },
+  {
+    "name": "topaz_tqe_xmit",
+    "path": "analysis/rea-topaz-tqe-xmit-20261022/topaz_tqe_xmit",
+    "instructions": 62,
+    "evidence": "evidence/rea-topaz-tqe-xmit-20261022/rea.json"
+  }
+]

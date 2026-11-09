@@ -1,0 +1,244 @@
+{
+  "name": "FUN_ram_00048224",
+  "procedure": {
+    "address": "0x48224",
+    "name": "FUN_ram_00048224",
+    "classification": {
+      "external": false,
+      "thunk": false,
+      "thunk_target": null,
+      "provenance": "ghidra-function-manager"
+    },
+    "body": {
+      "available": true,
+      "provenance": "ghidra-function-body-address-set",
+      "ranges": [
+        {
+          "start": "0x48224",
+          "end": "0x483e1"
+        },
+        {
+          "start": "0x483e4",
+          "end": "0x49429"
+        },
+        {
+          "start": "0x4942c",
+          "end": "0x49dad"
+        },
+        {
+          "start": "0x49db0",
+          "end": "0x4a935"
+        }
+      ],
+      "total_bytes": 9996,
+      "span_bytes": 10002,
+      "non_contiguous": true,
+      "contains_entry": true
+    },
+    "signature": "undefined FUN_ram_00048224()",
+    "locals": [
+      {
+        "description": "undefined4 local_10 @ Stack[-0x10]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_14 @ Stack[-0x14]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_18 @ Stack[-0x18]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_1c @ Stack[-0x1c]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_20 @ Stack[-0x20]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_24 @ Stack[-0x24]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_28 @ Stack[-0x28]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_2c @ Stack[-0x2c]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_34 @ Stack[-0x34]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_38 @ Stack[-0x38]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_3c @ Stack[-0x3c]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_40 @ Stack[-0x40]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined1 local_43 @ Stack[-0x43]:1",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined1 local_44 @ Stack[-0x44]:1",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined2 local_46 @ Stack[-0x46]:2",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined2 local_48 @ Stack[-0x48]:2",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_4c @ Stack[-0x4c]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined1 local_50 @ Stack[-0x50]:1",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined2 local_52 @ Stack[-0x52]:2",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined1 local_54 @ Stack[-0x54]:1",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_64 @ Stack[-0x64]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_78 @ Stack[-0x78]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_7c @ Stack[-0x7c]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_80 @ Stack[-0x80]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_84 @ Stack[-0x84]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_88 @ Stack[-0x88]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_8c @ Stack[-0x8c]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_90 @ Stack[-0x90]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_94 @ Stack[-0x94]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_98 @ Stack[-0x98]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_9c @ Stack[-0x9c]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_a0 @ Stack[-0xa0]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_a4 @ Stack[-0xa4]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_a8 @ Stack[-0xa8]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_ac @ Stack[-0xac]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_b0 @ Stack[-0xb0]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_b4 @ Stack[-0xb4]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_b8 @ Stack[-0xb8]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_c @ Stack[-0xc]:4",
+        "provenance": "ghidra-function-database"
+      }
+    ]
+  },
+  "source_evidence": "evidence/oem-qdrv-missingops-20261022T142000Z-setparam/rea.json",
+  "subject": {
+    "name": "qdrv-ANALYSIS_ONLY-NOT_FIRMWARE.elf",
+    "digest": {
+      "sha256": "60a15998175652d70fa4e1e75a6e1ee997a2e5144f9fe446af06f66641717f77"
+    },
+    "local_path": "/workspace/user-home/Desktop/MitraStar/outputs/rea/oem-qdrv-missingops-20261022T132800Z-linked/qdrv-ANALYSIS_ONLY-NOT_FIRMWARE.elf",
+    "format": "elf",
+    "architecture": "arc700"
+  },
+  "provider": {
+    "id": "ghidra",
+    "name": "Ghidra",
+    "version": "12.1.4"
+  },
+  "operation": "analyze_function",
+  "instruction_count": 1957,
+  "limitations": [
+    "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+    "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+    "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+    "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+    "References cover the complete Ghidra function-body AddressSet and exact entry. Dossier incoming edges omit sources owned by that function; procedure_references also retains those internal edges.",
+    "The dossier combines Ghidra FunctionManager, Listing, ReferenceManager, BasicBlockModel, and decompiler observations; provider-specific pseudocode and assembly are not cross-provider text invariants.",
+    "Resolved reference metadata identifies computed, indirect, external, call, jump, and data edges; unresolved targetless flows remain unknown, and function classifications distinguish thunks and externals.",
+    "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+    "The Java bridge serializes one function request per Program and lets each decompilation run until it completes or the caller cancels.",
+    "Unresolved computed or indirect flows without target addresses are not represented as reference edges.",
+    "Thunk and external classifications are Ghidra FunctionManager observations; they do not resolve targetless calls.",
+    "Pseudocode and assembly are Ghidra-specific representations, not original source or Hopper-equivalent text.",
+    "Synthetic Ghidra entry-point references without actionable memory sources are omitted."
+  ],
+  "relationship_coverage": {
+    "status": "partial",
+    "limitations": [
+      "Ghidra's caller inventory omits sources of 1 call reference(s) into this function's body.",
+      "Ghidra's callee inventory omits targets of 101 call reference(s) or decoded call(s) without destinations."
+    ],
+    "limited_directions": [
+      "callers",
+      "callees"
+    ],
+    "diagnostics": [
+      "Only resolved Ghidra call references are returned; unresolved computed or indirect calls remain unknown, while function classifications distinguish thunks and externals."
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "name": "qdrv_wlan_init",
+  "procedure": {
+    "address": "0x330ec",
+    "name": "qdrv_wlan_init",
+    "classification": {
+      "external": false,
+      "thunk": false,
+      "thunk_target": null,
+      "provenance": "ghidra-function-manager"
+    },
+    "body": {
+      "available": true,
+      "provenance": "ghidra-function-body-address-set",
+      "ranges": [
+        {
+          "start": "0x330ec",
+          "end": "0x3474b"
+        }
+      ],
+      "total_bytes": 5728,
+      "span_bytes": 5728,
+      "non_contiguous": false,
+      "contains_entry": true
+    },
+    "signature": "undefined qdrv_wlan_init()",
+    "locals": [
+      {
+        "description": "undefined4 local_10 @ Stack[-0x10]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_14 @ Stack[-0x14]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_18 @ Stack[-0x18]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_1c @ Stack[-0x1c]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_20 @ Stack[-0x20]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_24 @ Stack[-0x24]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_28 @ Stack[-0x28]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_2c @ Stack[-0x2c]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined2 local_5a @ Stack[-0x5a]:2",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_68 @ Stack[-0x68]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_70 @ Stack[-0x70]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_74 @ Stack[-0x74]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_8 @ Stack[-0x8]:4",
+        "provenance": "ghidra-function-database"
+      },
+      {
+        "description": "undefined4 local_c @ Stack[-0xc]:4",
+        "provenance": "ghidra-function-database"
+      }
+    ]
+  },
+  "source_evidence": "evidence/rea-qdrv-wlan-init-20261022/rea.json",
+  "subject": {
+    "name": "qdrv-ANALYSIS_ONLY-NOT_FIRMWARE.elf",
+    "digest": {
+      "sha256": "9b90c3d18497d3b9ab4ad11ebc8140d2cb80b1fbe4254682a771c930cdbf60b7"
+    },
+    "local_path": "/workspace/user-home/Desktop/MitraStar/outputs/rea/arc700-20261021-r2/f365-performance-linked/qdrv-ANALYSIS_ONLY-NOT_FIRMWARE.elf",
+    "format": "elf",
+    "architecture": "arc700"
+  },
+  "provider": {
+    "id": "ghidra",
+    "name": "Ghidra",
+    "version": "12.1.4"
+  },
+  "operation": "analyze_function",
+  "instruction_count": 1203,
+  "limitations": [
+    "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+    "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+    "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+    "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+    "References cover the complete Ghidra function-body AddressSet and exact entry. Dossier incoming edges omit sources owned by that function; procedure_references also retains those internal edges.",
+    "The dossier combines Ghidra FunctionManager, Listing, ReferenceManager, BasicBlockModel, and decompiler observations; provider-specific pseudocode and assembly are not cross-provider text invariants.",
+    "Resolved reference metadata identifies computed, indirect, external, call, jump, and data edges; unresolved targetless flows remain unknown, and function classifications distinguish thunks and externals.",
+    "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+    "The Java bridge serializes one function request per Program and lets each decompilation run until it completes or the caller cancels.",
+    "Unresolved computed or indirect flows without target addresses are not represented as reference edges.",
+    "Thunk and external classifications are Ghidra FunctionManager observations; they do not resolve targetless calls.",
+    "Pseudocode and assembly are Ghidra-specific representations, not original source or Hopper-equivalent text.",
+    "Synthetic Ghidra entry-point references without actionable memory sources are omitted."
+  ],
+  "relationship_coverage": {
+    "status": "partial",
+    "limitations": [
+      "Ghidra's callee inventory omits targets of 62 call reference(s) or decoded call(s) without destinations."
+    ],
+    "limited_directions": [
+      "callees"
+    ],
+    "diagnostics": [
+      "Only resolved Ghidra call references are returned; unresolved computed or indirect calls remain unknown, while function classifications distinguish thunks and externals."
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+out/
+build/
+local-only/
+__pycache__/
+*.pyc
+*.o
+*.ko
+*.elf
+*.key
+*.pem
+*.p12
+.env
